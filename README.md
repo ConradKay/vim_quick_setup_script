@@ -7,32 +7,23 @@ Before running the script, make sure you have the following prerequisites:
 
 - A Linux-based system (this script is tailored for Ubuntu-like systems)
 
-## Installation Steps
+## Included Installation Steps
 
 1. **Install Vim**: The script will update package information and then install Vim using `apt-get`.
 
     ```bash
-    Installing Vim...
     sudo apt-get update
     sudo apt-get install vim
-    Vim installed successfully.
     ```
 
 2. **Install Vim-Plug**: The script downloads Vim-Plug and places it in the `~/.vim/autoload` directory.
 
     ```bash
-    Installing Vim-Plug...
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    Vim-Plug installed successfully.
     ```
 
 3. **Configure Vim Plugins**: The script adds the configuration for various plugins to the `~/.vimrc` file.
-
-    ```bash
-    Configuring Vim plugins...
-    Vim plugins configured.
-    ```
 
     The following plugins are configured:
     - vim-airline/vim-airline
@@ -45,16 +36,9 @@ Before running the script, make sure you have the following prerequisites:
 
 4. **Install Plugins using Vim-Plug**: The script installs the configured plugins using Vim-Plug.
 
-    ```bash
-    Installing plugins using Vim-Plug...
-    Plugins installed successfully.
-    ```
 
 5. **Additional Configuration**: The script configures the `vim-racer` plugin for Rust language support.
 
-    ```bash
-    Vim plugins configured.
-    ```
 
 ## Usage
 
