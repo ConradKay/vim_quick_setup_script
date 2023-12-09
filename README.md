@@ -1,5 +1,6 @@
 # vim_quick_setup_script
-My personal vim setup script with plugins for Python, Julia and Rust using Vim-Plug, a popular Vim plugin manager.
+My personal vim setup script with plugins for QoL, Python, and Rust using Vim-Plug.
+Changes colorscheme to Gruvbox.
 
 ## Prerequisites
 
@@ -31,7 +32,6 @@ Before running the script, make sure you have the following prerequisites:
     - rust-lang/rust.vim (Rust language support)
     - vim-python/python-syntax (Python language support)
     - davidhalter/jedi-vim (Python autocompletion)
-    - JuliaEditorSupport/julia-vim (Julia language support)
     - Add more plugins here as needed
 
 4. **Install Plugins using Vim-Plug**: The script installs the configured plugins using Vim-Plug.
