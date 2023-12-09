@@ -30,9 +30,6 @@ Plug 'racer-rust/vim-racer'
 Plug 'vim-python/python-syntax'
 Plug 'davidhalter/jedi-vim'
 Plug 'Vimjas/vim-python-pep8-indent'
-" Julia plugins
-Plug 'JuliaEditorSupport/julia-vim'
-Plug 'JuliaEditorSupport/julia-vim'
 " Add more plugins here
 call plug#end()
 
@@ -69,8 +66,9 @@ set expandtab
 " Enable line wrapping
 set wrap
 
-" Configure colorscheme (change 'desert' to your preferred colorscheme)
-colorscheme desert
+" Configure colorscheme to Gruvbox
+set background=black
+colorscheme gruvbox
 
 " Enable airline status bar
 let g:airline#extensions#tabline#enabled = 1
@@ -104,4 +102,3 @@ vim +PlugInstall +qall
 echo "Plugins installed successfully."
 
 echo "Vim with plugins installed successfully!"
-
